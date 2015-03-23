@@ -1,4 +1,5 @@
 body {
+  background: #00B88A;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -34,6 +35,13 @@ div {
   }
 }
 
+ul { list-style-type: none; }
+
+li { display: inline; 
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 0.5em 0 0; }
+
 #notice {
   color: green;
 }
@@ -60,9 +68,5 @@ div {
     margin-bottom: 0px;
     background-color: #c00;
     color: #fff;
-  }
-  ul li {
-    font-size: 12px;
-    list-style: square;
   }
 }
