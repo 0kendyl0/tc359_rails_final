@@ -18,14 +18,21 @@
         <td><%= book.title %></td>
         <td><%= book.rating %></td>
         <td><%= book.price %></td>
+      <% if user_signed_in? %>
         <td><%= link_to 'Show', book %></td>
+      <% end %>
+      <% if user_signed_in? %>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
+      <% end %>
+      <% if user_signed_in? %>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Book', new_book_path %>
+<% if user_signed_in? %>
+  <li><%= link_to 'New Book', new_book_path %></li>
+<% end %>
