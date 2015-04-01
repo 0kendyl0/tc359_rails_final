@@ -18,9 +18,7 @@
         <td><%= book.title %></td>
         <td><%= book.rating %></td>
         <td><%= book.price %></td>
-      <% if user_signed_in? %>
         <td><%= link_to 'Show', book %></td>
-      <% end %>
       <% if user_signed_in? %>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
       <% end %>
