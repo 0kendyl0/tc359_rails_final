@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'will_paginate', '~> 3.0.6'
 
+gem 'slim-rails'
+
 group :production do
 
   gem 'rails_12factor' 
