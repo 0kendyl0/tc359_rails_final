@@ -30,6 +30,8 @@
   </tbody>
 </table>
 
+<%= will_paginate @books %>
+
 <br>
 <% if user_signed_in? %>
   <li><%= link_to 'New Book', new_book_path %></li>
