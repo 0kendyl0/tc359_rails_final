@@ -1,6 +1,9 @@
 p#notice
   = notice
 h1 Listing Books
+- form_tag books_path do 
+  p= text_field_tag :search
+  = submit_tag "Search"
 table
   thead
     tr
