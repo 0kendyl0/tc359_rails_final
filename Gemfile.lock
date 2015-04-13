@@ -83,6 +83,7 @@ GEM
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     pg (0.18.1)
+    polyglot (0.3.5)
     rack (1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -128,6 +129,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    search_cop (1.0.6)
+      treetop
     slim (3.0.3)
       temple (~> 0.7.3)
       tilt (>= 1.3.3, < 2.1)
@@ -152,6 +155,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
+    treetop (1.6.2)
+      polyglot (~> 0.3)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
@@ -181,6 +186,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  search_cop
   slim-rails
   spring
   sqlite3
