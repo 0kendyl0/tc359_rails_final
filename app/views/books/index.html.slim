@@ -1,9 +1,10 @@
 p#notice
   = notice
 h1 Listing Books
-- form_tag books_path do 
-  p= text_field_tag :search
-  = submit_tag "Search"
+p <strong>Title</strong>
+= form_tag books_path, :method => 'get' do 
+  = text_field_tag :search, params[:search]
+  = submit_tag "Search", :name => nil
 table
   thead
     tr
