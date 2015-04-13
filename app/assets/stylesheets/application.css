@@ -14,7 +14,7 @@
  *= require_self
  */
 
-body { background: #00B88A; }
+body { background-image: url('/images/graygreen.png'); }
 
 ul { list-style-type: none; }
 
