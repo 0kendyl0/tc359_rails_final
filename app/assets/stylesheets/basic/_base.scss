@@ -1,13 +1,13 @@
 $font-stack: verdana, arial, helvetica, sans-serif;
-$background-color: #00B88A;
+$background-image: url("chaos.png");
+$primary-color: #ffffff;
 
 body { 
-  background: $background-color;
-  font: 100% $font-stack;
-  color: #333;
+  background: $background-image;
   font-size: 13px;
   line-height: 18px;
   text-align: center; 
+  color: $primary-color;
 }
 
 ul { list-style-type: none; 
