@@ -1,0 +1,32 @@
+$font-stack: verdana, arial, helvetica, sans-serif;
+$background-color: background: #00B88A;
+
+body { 
+  background: $background-color;
+  font: 100% $font-stack;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center; 
+}
+
+ul { list-style-type: none; 
+}
+
+li { display: inline; 
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 0.5em 0 0; 
+}
+
+p, ol, td {
+  font: 100% $font-stack;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}

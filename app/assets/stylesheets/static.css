@@ -1,8 +1,0 @@
-body { background: #00B88A; }
-
-ul { list-style-type: none; }
-
-li { display: inline; 
-    border: solid;
-    border-width: 1px 1px 0 1px;
-    margin: 0 0.5em 0 0; }
